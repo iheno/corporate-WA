@@ -2,6 +2,9 @@
 
 ## Speed up your website! Loading Action
 
+
+
+```
 //WINDOW LOAD
 $(window).load(function(){  
   $('body').addClass('loaded');  
@@ -13,3 +16,5 @@ $(document).ready(function(){
   $('body').addClass('loaded');
   $('#loader-wrapper').fadeOut();
 });
+
+```
