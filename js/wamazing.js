@@ -8,7 +8,7 @@ $(function() {
 
 
     //WINDOW LOAD
-		$(window).load(function(){
+		$(document).ready(function(){
 			$('body').addClass('loaded');
 			$('#loader-wrapper').fadeOut();
 
@@ -282,3 +282,14 @@ $(function(){
         return false;
     });
 })
+
+$('#heading-collapsed').click(function () {
+if($('a i').hasClass('fa-chevron-down pull-right'))
+{
+    $('#heading-collapsed').html('<i class="fa fa-chevron-up pull-right"></i>とじる');
+}
+else
+{
+    $('#heading-collapsed').html('<i class="fa fa-chevron-down pull-right"></i>もっとみる');
+}
+});
