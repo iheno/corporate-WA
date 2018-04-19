@@ -11,6 +11,8 @@ $(window).load(function(){
   $('#loader-wrapper').fadeOut();
 });
 
+// Change to this
+
 //DOCUMENT READY
 $(document).ready(function(){
   $('body').addClass('loaded');
